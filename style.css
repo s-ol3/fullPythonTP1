@@ -66,8 +66,7 @@
 
 
 
-    /*  navbar //////////////////////////////////////////////////////////
-    *********************FALTA ARREGLAR < <<<<<<<<<<<<<<<<<<<<<<<<<<<<  */
+    /*  navbar //////////////////////////////////////////////////////// */
     .nav {
       width: 100%;
       background-color: var(--color2);
@@ -76,11 +75,6 @@
       padding: 0 2em 0 0.7em;
     }
 
-
-    /* .nav>.nav-list {
-      display: flex;
-      gap: 2rem;
-    } */
     .nav-list {
       display: flex;
       gap: 2rem;
@@ -88,7 +82,7 @@
 
     .nav-header {
       flex: 0.95;
-      /* *******************************FALTA ARREGLAR VER*********************** */
+      /* *****************************VER*********************** */
       /* justify-content: flex-end; no andaaa, align end tampoco, float right/end tampoco */
       /* display: flex;
       float: end;
@@ -98,9 +92,7 @@
 
     .nav-list li {
       list-style-type: none;
-      /* 
-      list-style-type: none;  ccs1 ? 
-      no funciona text-decoration none**********VER********************/
+      /* no funciona text-decoration none**********VER********************/
       transition: .6s;
     }
 
@@ -131,7 +123,7 @@
     }
 
 
-    /*  ESTABA  @media (max-width: 480px) { */
+    /* @media (max-width: 480px) { */
     @media (max-width: 700px) {
       .nav {
         padding: 1rem;
@@ -187,7 +179,7 @@
         max-height: fit-content;
       }
 
-      /* hace que se vea cuando esta cerrada,************************************************************** */
+      /* ************************************************************** */
       .nav-list li a {
         padding: 2em;
         font-size: 1.1em;
@@ -214,9 +206,7 @@
       height: 92vh;
       /* grid-template-columns: minmax(300px, 3fr) 4fr;  3fr es el ancho de donde estan las letras, 4 fr donde esta la imagen*/
       grid-template-columns: minmax(300px, 4fr) 3fr;
-      /* grid-auto-rows: 500px; */
       grid-auto-rows: 95vh;
-      /* funciona como height? */
       /* border-bottom: 1px solid #ddd; */
       padding: 20px;
       overflow: hidden;
@@ -263,8 +253,7 @@
       font-size: 6rem;
       font-weight: bolder;
       margin-bottom: 24px;
-      font-family: 'Lobster', cursive;
-      /* nop */
+      /* font-family: 'Lobster', cursive; */
       font-family: 'Dancing Script', cursive;
       /* filter: drop-shadow(1px 1px 10px #00000044); */
     }
@@ -289,7 +278,6 @@
 
     /* redes portada /////////////////////////////////////////////////////////  */
     .redes {
-      /* display: inline; */
       display: inline-flex;
     }
 
@@ -310,15 +298,9 @@
     .redes-portada li a {
       color: var(--color4);
       margin: .4em .4em .4em 0;
-
-
-      filter: drop-shadow(1px 2px 10px #00000066);
-
-      filter: drop-shadow(0 8px 16px 0 rgb(0 0 0 / 0%));
-
+      /* filter: drop-shadow(1px 2px 10px #00000066);
+      filter: drop-shadow(0 8px 16px 0 rgb(0 0 0 / 0%)); */
       filter: drop-shadow(1px 2px 1px #00000066);
-
-
     }
 
 
@@ -335,7 +317,7 @@
       .hero {
         grid-template-columns: minmax(300px, 400px);
         justify-content: center;
-        /* saco background, ajusto por media queries ******************* */
+
         background-image: url("img/portada/portadaPhone.png");
         background-repeat: no-repeat;
         /* background-position: right;
@@ -363,9 +345,7 @@
           width: 100%;
           height: 93vh;
           grid-template-columns: minmax(300px, 4fr) 3fr;
-          /* grid-auto-rows: 500px; */
           grid-auto-rows: 95vh;
-          /* border-bottom: 1px solid #ddd; */
           padding: 20px;
           overflow: hidden;
           background-color: var(--color2);
@@ -411,7 +391,6 @@
         width: 100%;
         /* height: 91vH; */
         grid-template-columns: minmax(300px, 4fr) 3fr;
-        /* grid-auto-rows: 500px; */
         grid-auto-rows: 95vh;
         /* border-bottom: 1px solid #ddd; */
         /* padding: 2rem; */
@@ -472,7 +451,6 @@
 
 
 
-
     /* sobre nosotros //////////////////////////////////////////////////////////// */
     .about {
       margin: 4em 7em 3em 7em;
@@ -518,12 +496,6 @@
     .volverArriba i {
       color: var(--color2);
     }
-
-
-
-
-
-
 
 
 

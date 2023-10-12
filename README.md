@@ -1,3 +1,14 @@
-## Proyecto 1
+20-9-23
+-
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+# TP1 . CaC . FullStack Python
+
+Comisión #23523 
+
+#
+
+## Tecnologías implementadas en el FrontEnd
+
+
+![HTML5](https://img.shields.io/badge/html5-black.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-black.svg?style=for-the-badge&logo=css3&logoColor=white)

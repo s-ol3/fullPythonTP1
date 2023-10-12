@@ -7,7 +7,7 @@
     <!-- titulo pagina -->
     <title>Homemade Pet Food</title>
     <!-- favicon -->
-    <link rel="shortcut icon" href="img/ICOsinFondo-CREMA.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/img/ICOsinFondo-CREMA.ico" type="image/x-icon">
     <!-- iconos fontawesome -->
     <script src="https://kit.fontawesome.com/235a2dd216.js" crossorigin="anonymous"></script>
     <!-- google fonts -->
@@ -17,7 +17,7 @@
         href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bad+Script&family=Dancing+Script&family=Poiret+One&family=Sono:wght@300;400&family=Unica+One&display=swap"
         rel="stylesheet">
     <!-- css -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
         <input type="checkbox" id="nav-check">
         <div class="nav-header">
             <div class="nav-title">
-                <a href="index.html"><img src="img/logo-sinFondoNEGR.png" alt="logo"></a>
+                <a href="index.html"><img src="./assets/img/logo-sinFondoNEGR.png" alt="logo"></a>
             </div>
         </div>
 
@@ -46,19 +46,91 @@
     </nav>
 
 
-    <!-- tarjetas flexbox ------------------SACAR STYLE DEL HTML--------------->
-    <section class="container">
+     <!-- tarjetas flexbox ------------------------------------------------------->
+     <section class="container-tarjetas">
         <div>
             <h2 class="titulo2">Regalitos para tu perro</h2>
         </div>
         <div class="row">
             <!-- tarjeta -->
-            <div class="card">
-                <div class="card-header">
-                    <img src="img/menus sin fondo/Dog-Breath-Treats-Recipe-Image.png" alt="">
+            <div class="tarjeta">
+                <div class="tarjeta-header">
+                    <img src="./assets/img/menus sin fondo/Dog-Breath-Treats-Recipe-Image.png" alt="">
                 </div>
 
-                <div class="card-body">
+                <div class="tarjeta-body">
+                    <!-- nombre plato -->
+                    <h3>Aliquid minus perferendis</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit. Quasi neque molestiae
+                        eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod tempora, quisquam
+                        necessitatibus <strong>recusandae </strong>numquam corporis esse sapiente labore accusantium
+                        possimus aperiam
+                        officiis ad, beatae, neque eum iusto magnam et!
+                        Autem reiciendis eos perspiciatis, maxime repellat delectus debitis eius alias cumque, dolorum
+                        enim vero est neque tempora ea omnis. Debitis ratione voluptatem accusantium cumque in
+                        distinctio aut fugit ullam impedit.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
+                    <button id="btn-carrito">
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </button>
+                </div>
+            </div>
+            <!-- tarjeta -->
+            <div class="tarjeta">
+                <div class="tarjeta-header">
+                    <img src="./assets/img/menus sin fondo/Pumpkin-Dog-Biscuits-Recipe-Photo.png" alt="">
+                </div>
+
+                <div class="tarjeta-body">
+                    <!-- nombre plato -->
+                    <h3>Aliquid minus perferendis</h3>
+
+                    <ul class="lista-descripcion">
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quod soluta quis
+                            <strong>labore</strong> esse,
+                            temporibus cum unde vero ducimus nihil explicabo, minus, beatae et? Doloribus magni
+                            consectetur officia autem minus.
+                        </li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quod soluta quis labore esse,
+                            temporibus <strong>cum unde vero ducimus nihil</strong> explicabo, minus, beatae et?
+                            Doloribus magni
+                            consectetur officia autem minus.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quod soluta quis labore esse,
+                            temporibus cum unde vero ducimus nihil explicabo, minus, beatae et? <strong>Doloribus magni
+                                consectetur officia</strong> autem minus.</li>
+                    </ul>
+                    <a href="#" class="btn-tarjeta">Ver más >> </a>
+                </div>
+            </div>
+            <!-- tarjeta -->
+            <div class="tarjeta">
+                <div class="tarjeta-header">
+                    <img src="./assets/img/menus sin fondo/Apple-Rolled-Oats-Dog-Treats-Pin-5.png" alt="">
+                </div>
+
+                <div class="tarjeta-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
                         mollitia tempore reiciendis, vel, sequi.
@@ -67,12 +139,20 @@
                 </div>
             </div>
             <!-- tarjeta -->
-            <div class="card">
-                <div class="card-header">
-                    <img src="img/menus sin fondo/Pumpkin-Dog-Biscuits-Recipe-Photo.png" alt="">
+            <div class="tarjeta">
+                <div class="tarjeta-header">
+                    <img src="./assets/img/menus sin fondo/Banana-Dog-Treats-Pin-Photo-800x1200.png" alt="">
                 </div>
 
-                <div class="card-body">
+                <div class="tarjeta-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
                         mollitia tempore reiciendis, vel, sequi.
@@ -81,12 +161,20 @@
                 </div>
             </div>
             <!-- tarjeta -->
-            <div class="card">
-                <div class="card-header">
-                    <img src="img/menus sin fondo/Apple-Rolled-Oats-Dog-Treats-Pin-5.png" alt="">
+            <div class="tarjeta">
+                <div class="tarjeta-header">
+                    <img src="./assets/img/menus sin fondo/Dog-Treats-Without-Flour-Recipe-Photo-300x300.png" alt="">
                 </div>
 
-                <div class="card-body">
+                <div class="tarjeta-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
                         mollitia tempore reiciendis, vel, sequi.
@@ -95,12 +183,21 @@
                 </div>
             </div>
             <!-- tarjeta -->
-            <div class="card">
-                <div class="card-header">
-                    <img src="img/menus sin fondo/Banana-Dog-Treats-Pin-Photo-800x1200.png" alt="">
+            <div class="tarjeta">
+                <div class="tarjeta-header">
+                    <img src="./assets/img/menus sin fondo/Peanut-Butter-Pumpkin-Soft-Dog-Treats-Recipe-Photo.png"
+                        alt="">
                 </div>
 
-                <div class="card-body">
+                <div class="tarjeta-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
                         mollitia tempore reiciendis, vel, sequi.
@@ -109,12 +206,20 @@
                 </div>
             </div>
             <!-- tarjeta -->
-            <div class="card">
-                <div class="card-header">
-                    <img src="img/menus sin fondo/Dog-Treats-Without-Flour-Recipe-Photo-300x300.png" alt="">
+            <div class="tarjeta">
+                <div class="tarjeta-header">
+                    <img src="./assets/img/menus sin fondo/Peanut-Butter-Banana-Dog-Treats-Photo-4.png" alt="">
                 </div>
 
-                <div class="card-body">
+                <div class="tarjeta-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
                         mollitia tempore reiciendis, vel, sequi.
@@ -123,12 +228,20 @@
                 </div>
             </div>
             <!-- tarjeta -->
-            <div class="card">
-                <div class="card-header">
-                    <img src="img/menus sin fondo/Peanut-Butter-Pumpkin-Soft-Dog-Treats-Recipe-Photo.png" alt="">
+            <div class="tarjeta">
+                <div class="tarjeta-header">
+                    <img src="./assets/img/menus sin fondo/Liver-Dog-Treats-Recipe-Photo--arr.png" alt="">
                 </div>
 
-                <div class="card-body">
+                <div class="tarjeta-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
                         mollitia tempore reiciendis, vel, sequi.
@@ -137,12 +250,21 @@
                 </div>
             </div>
             <!-- tarjeta -->
-            <div class="card">
-                <div class="card-header">
-                    <img src="img/menus sin fondo/Peanut-Butter-Banana-Dog-Treats-Photo-4.png" alt="">
+            <div class="tarjeta">
+                <div class="tarjeta-header">
+                    <img src="./assets/img/menus sin fondo/Peanut-Butter-Pumpkin-Dog-Treats-Recipe-Photo-800x800.png"
+                        alt="">
                 </div>
 
-                <div class="card-body">
+                <div class="tarjeta-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
                         mollitia tempore reiciendis, vel, sequi.
@@ -151,12 +273,20 @@
                 </div>
             </div>
             <!-- tarjeta -->
-            <div class="card">
-                <div class="card-header">
-                    <img src="img/menus sin fondo/Liver-Dog-Treats-Recipe-Photo--arr.png" alt="">
+            <div class="tarjeta">
+                <div class="tarjeta-header">
+                    <img src="./assets/img/menus sin fondo/Pumpkin-Dog-Biscuits-Recipe-Photo.png" alt="">
                 </div>
 
-                <div class="card-body">
+                <div class="tarjeta-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
                         mollitia tempore reiciendis, vel, sequi.
@@ -165,12 +295,20 @@
                 </div>
             </div>
             <!-- tarjeta -->
-            <div class="card">
-                <div class="card-header">
-                    <img src="img/menus sin fondo/Peanut-Butter-Pumpkin-Dog-Treats-Recipe-Photo-800x800.png" alt="">
+            <div class="tarjeta">
+                <div class="tarjeta-header">
+                    <img src="./assets/img/menus sin fondo/Pumpkin-Dog-Cake-Recipe-Photo-300x300.png" alt="">
                 </div>
 
-                <div class="card-body">
+                <div class="tarjeta-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
+                        mollitia tempore reiciendis, vel, sequi.
+                    </p>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
                         mollitia tempore reiciendis, vel, sequi.
@@ -179,40 +317,20 @@
                 </div>
             </div>
             <!-- tarjeta -->
-            <div class="card">
-                <div class="card-header">
-                    <img src="img/menus sin fondo/Pumpkin-Dog-Biscuits-Recipe-Photo.png" alt="">
+            <div class="tarjeta">
+                <div class="tarjeta-header">
+                    <img src="./assets/img/menus sin fondo/Sweet-Potato-Dog-Treats-Recipe-Photo.png" alt="">
                 </div>
 
-                <div class="card-body">
+                <div class="tarjeta-body">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
                         mollitia tempore reiciendis, vel, sequi.
                     </p>
-                    <a href="#" class="btn-tarjeta">Ver más >> </a>
-                </div>
-            </div>
-            <!-- tarjeta -->
-            <div class="card">
-                <div class="card-header">
-                    <img src="img/menus sin fondo/Pumpkin-Dog-Cake-Recipe-Photo-300x300.png" alt="">
-                </div>
-
-                <div class="card-body">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
                         mollitia tempore reiciendis, vel, sequi.
                     </p>
-                    <a href="#" class="btn-tarjeta">Ver más >> </a>
-                </div>
-            </div>
-            <!-- tarjeta -->
-            <div class="card">
-                <div class="card-header">
-                    <img src="img/menus sin fondo/Sweet-Potato-Dog-Treats-Recipe-Photo.png" alt="">
-                </div>
-
-                <div class="card-body">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo
                         mollitia tempore reiciendis, vel, sequi.

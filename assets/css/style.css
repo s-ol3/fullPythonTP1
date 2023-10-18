@@ -178,6 +178,7 @@ nav img:hover {
   color: var(--colorLetras1);
   color: var(--colorLetras2);
   font-size: 6rem;
+  /* se rompio todo con los textos largos */
   font-weight: 800;
   margin-bottom: .3em;
   /* 24px */
@@ -185,6 +186,10 @@ nav img:hover {
   font-family: 'Dancing Script', cursive;
   /* filter: drop-shadow(1px 1px 10px #00000044); */
 }
+
+/* .hero-portada .portada-titulo span{
+  font-size: 4rem;
+} */
 
 .hero-portada .portada-subtitulo {
   color: var(--colorLetras1);
@@ -423,6 +428,7 @@ sacar si queda el carrito, apagado se modifica el id=btn-carrito, ver */
 .tarjeta-body p {
   font-family: 'Unica One', cursive;
   margin: 1em 0;
+  font-size: 0.9em;
 }
 
 .tarjeta:hover {
@@ -456,9 +462,9 @@ sacar si queda el carrito, apagado se modifica el id=btn-carrito, ver */
 }
 
 .lista-descripcion {
-  list-style: circle;
+  /* list-style: circle; */
   list-style-position: inside;
-  text-align: left;
+  /* text-align: left; */
 }
 
 .lista-descripcion li {
@@ -469,9 +475,14 @@ sacar si queda el carrito, apagado se modifica el id=btn-carrito, ver */
   text-align: center;
   padding: .7em 0;
   font-weight: 600;
-  font-size: 1.1em;
+  font-size: 1em;
   /* background-color: var(--color-background-tarjetas-gris); */
   color: rgb(148, 148, 148);
+}
+
+.tarjeta-body li {
+  font-size: .9em;
+  list-style-type: circle;
 }
 
 strong {
@@ -493,7 +504,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%; */
-  padding: 0.5em;
+  padding: 1em;
 }
 
 /* *********************
@@ -700,10 +711,11 @@ textarea {
 }
 
 iframe {
-  margin-top: 1em;
+  margin: 1em 1em 0 1em;
   border-radius: 2.2em;
+  /* height: 50vh; */
+  /* width: 20em; */
 }
-
 
 
 
@@ -718,7 +730,7 @@ ______________________________________________________________________ */
 
 @media screen and (max-width: 1366px) {
   .hero {
-   
+
     grid-template-columns: minmax(55vw, 4fr) 3fr;
     /* 300px */
     grid-auto-rows: 88vh;
@@ -868,7 +880,10 @@ ______________________________________________________________________ */
     opacity: 60%;
   }
 
-
+  .hero-portada .portada-titulo {
+    font-size: 5rem;
+    /* se rompio todo con los textos largos */
+  }
 
   /* tarjetas flexbox /////////////////////////////////////////////// */
   .tarjeta {
@@ -933,11 +948,12 @@ ______________________________________________________________________ */
   }
 
   .hero-portada .portada-titulo {
-    /* font-size: 2.5rem; */
-    font-size: 20vw;
+    /* font-size: 20vw;  se rompe todo en mobile con los nuevos texto largos */
+    font-size: 13vw;
     font-weight: bold;
     margin-top: -.5em;
   }
+
 
   .hero-portada .portada-subtitulo {
     font-size: 1.4rem;
@@ -1026,8 +1042,14 @@ ______________________________________________________________________ */
 /* ___________________________________________________________________
                       mobile-small *SIMPLIFICAR RESTO @
 ______________________________________________________________________ */
-/* ver samsung s8+ */
+/*  ip se */
+@media screen and (max-width: 377px) {
+  .hero-portada .portada-subtitulo {
+    font-size: 1rem;
+  }
+}
 
+/* ver samsung s8+ */
 @media screen and (max-width: 375px) {
   /* 376 */
   /* 
@@ -1061,6 +1083,7 @@ ______________________________________________________________________ */
     font-size: 1em;
     margin-bottom: 0;
   }
+
 
   /* .hero .hero-img {
     width: 1800%;

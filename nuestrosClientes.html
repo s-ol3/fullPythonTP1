@@ -21,26 +21,33 @@
 </head>
 
 <body>
-    <!-- navbar--------------------------------------------------------------- -->
-    <nav class="nav">
+     <!-- navbar--------------------------------------------------------------- -->
+     <nav class="nav">
         <input type="checkbox" id="nav-check">
         <div class="nav-header">
             <div class="nav-title">
                 <a href="index.html"><img src="./assets/img/logo-sinFondoNEGR.png" alt="logo"></a>
             </div>
         </div>
-
         <!-- menu hamburguesa -->
         <div class="nav-btn">
             <label for="nav-check">
+                <i class="fa-solid fa-bars"></i>
             </label>
         </div>
-
         <ul class="nav-list">
             <li><a href="index.html">Home</a></li>
-            <li><a href="perros.html">Suplementos y Snacks</a></li>
-            <li><a href="gatos.html">Productos B.A.R.F.</a></li>
-            <li><a href="info_barf.html">Información sobre B.A.R.F</a></li>
+            <li class="dropdown">
+                <a class="drop_a" href="#">Nuestros Productos<span><svg xmlns="http://www.w3.org/2000/svg" width="10"
+                            height="10" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 6 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg></span></a>
+                <div class="dropdown-content">
+                    <a href="1snacks.html">Suplementos y Snacks</a>
+                    <a href="2barf.html">B.A.R.F.</a>
+                </div>
+            </li>
             <li><a href="nuestrosClientes.html">Nuestros Clientes</a></li>
             <li><a href="contacto.html">Contactanos</a></li>
         </ul>

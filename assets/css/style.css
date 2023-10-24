@@ -68,7 +68,10 @@ h2 {
   align-items: center;
   padding: 0 2em 0 0.7em;
   height: 10vh;
+  position: relative;
+  z-index: 11 !important;
 }
+
 
 .nav-list {
   display: flex;
@@ -237,6 +240,262 @@ nav img:hover {
 }
 
 
+/* heroe productos///////solo pantalla grande, tablet y mobile esta roto///////////////////////////////////////////////////// */
+/*.hero-products {
+  position: relative;
+  display: grid;
+  width: 100%;
+  height: 92vh;
+  grid-template-columns: minmax(55vw, 4fr) 3fr;
+  grid-auto-rows: 88vh;
+  padding: 1.25em 3.5em;
+  overflow: hidden;
+  background-color: var(--color-background-nav);
+  /* background: linear-gradient(90deg, #cdcdcded 20%, #0000000a); 
+  /* background: linear-gradient(90deg, #cdcdcd8c 20%, #00000000); 
+  background: linear-gradient(90deg, #cdcdcd00 20%, #00000038);
+}
+
+.hero-products .hero-img {
+  width: 150%;
+  object-fit: contain;
+  opacity: 55%;
+  position: relative;
+  right: 30%;
+  bottom: -3%;
+}
+
+.hero-products .hero-portada {
+  align-self: center;
+  padding-left: 3.3em;
+  z-index: 9;
+  filter: drop-shadow(1px 1px 10px #0000006a);
+}
+.hero-products .portada-subtitulo {
+  color: #7b7b7b;
+  font-weight: 600;
+}*/
+
+/* heroe productos////////////solo pantalla grande, tablet y mobile esta roto//////////////////////////////////////////////// */
+/*.hero-products2 {
+  position: relative;
+  display: grid;
+  width: 100%;
+  height: 92vh;
+  grid-template-columns: minmax(55vw, 4fr) 3fr;
+  grid-auto-rows: 88vh;
+  padding: 1.25em 3.5em;
+  overflow: hidden;
+  background-color: var(--color-background-nav);
+  /* background: linear-gradient(90deg, #cdcdcded 20%, #0000000a); 
+  /* background: linear-gradient(90deg, #cdcdcd8c 20%, #00000000); 
+  background: linear-gradient(90deg, #cdcdcd00 20%, #00000038);
+}
+
+.hero-products2 .hero-img {
+  width: 150%;
+  object-fit: contain;
+  opacity: 65%;
+  position: relative;
+  right: 45%;
+  bottom: 2%;
+}
+
+.hero-products2 .hero-portada {
+  align-self: center;
+  padding-left: 3.3em;
+  z-index: 9;
+  filter: drop-shadow(1px 1px 10px #0000006a);
+}
+.hero-products2 .portada-subtitulo {
+  color: #7b7b7b;
+  font-weight: 600;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*//////////////////////////half caratula, borrar lo de arriba////////////////////////////////////////////////////////////////////*/
+/*snacks///////////////////////////////////////*/
+.hero-products {
+  /*position: relative;     para sacar img fuera de la caratula */
+  display: grid;
+  width: 100%;
+  height: 45vh;
+  grid-template-columns: minmax(55vw, 4fr) 3fr;
+  grid-auto-rows: 88vh;
+  padding: 1.25em 3.5em;
+  overflow: hidden;
+  background-color: var(--color-background-nav);
+  background: linear-gradient(90deg, #cdcdcd00 20%, #00000038);
+}
+
+.hero-products .hero-portada {
+  /* align-self: center; */
+  padding-left: 5em;
+  z-index: 9;
+  filter: drop-shadow(1px 1px 10px #0000006a);
+  margin-top: 5em;
+}
+
+.hero-portada .portada-titulo {
+  color: var(--colorLetras1);
+  color: var(--colorLetras2);
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: .5em;
+  font-family: 'Dancing Script', cursive;
+}
+
+/*.hero-products .hero-img {
+    width: 110%;
+    object-fit: contain;
+    opacity: 55%;
+    position: relative;
+    right: 10%;
+    bottom: 1%;
+}*/
+/*.hero-products .hero-img {
+    width: 100%;
+    object-fit: contain;
+    opacity: 55%;
+    position: relative;
+    right: 7%;
+    bottom: 3%;
+}*/
+.hero-products .hero-img {
+  width: 30em;
+  object-fit: contain;
+  opacity: 85%;
+  position: absolute;
+  right: 4vw;
+  bottom: 38vh;
+}
+
+.hero-products .portada-subtitulo {
+  color: #7b7b7b;
+  font-weight: 600;
+}
+
+.hero-products .portada-subtitulo {
+  font-size: 1.2em;
+}
+
+
+/*barf/////////////////////////////////////////*/
+/*.hero-products2 {
+    position: relative;
+    display: grid;
+    width: 100%;
+    height: 45vh;
+    grid-template-columns: minmax(55vw, 4fr) 3fr;
+    grid-auto-rows: 88vh;
+    padding: 1.25em 3.5em;
+    overflow: hidden;
+    background-color: var(--color-background-nav);
+    background: linear-gradient(90deg, #cdcdcd00 20%, #00000038);
+}*/
+
+.hero-products2 .hero-portada {
+  /* align-self: center; */
+  padding-left: 5em;
+  z-index: 9;
+  filter: drop-shadow(1px 1px 10px #0000006a);
+  margin-top: 5em;
+}
+
+/*.hero-products2 .hero-img {
+    width: 90%;
+    object-fit: contain;
+    opacity: 65%;
+    position: relative;
+    right: 8%;
+    bottom: 3%;
+}*/
+.hero-products2 .portada-subtitulo {
+  color: #7b7b7b;
+  font-weight: 600;
+}
+
+
+/*img desbordando gris////////////////////////////////////////////////////*/
+.hero-products2 {
+  /* position: relative; */
+  display: grid;
+  width: 100%;
+  height: 45vh;
+  grid-template-columns: minmax(55vw, 4fr) 3fr;
+  grid-auto-rows: 88vh;
+  padding: 1.25em 3.5em;
+  overflow: hidden;
+  background-color: var(--color-background-nav);
+  background: linear-gradient(90deg, #cdcdcd00 20%, #00000038);
+  /*background: linear-gradient(0deg, #cdcdcd00 20%, #00000038);  /*de arriba hacia abajo  probar 20 grados, 45 etc  */
+  /* Z-INDEX: 9999;*/
+}
+
+/*.hero-products2 .hero-img {
+    width: 40%;
+    opacity: 75%;
+    position: absolute;
+    right: 8%;
+    bottom: 30%;
+    object-fit: cover;
+}*/
+
+/*.hero-products2 .hero-img {
+    width: 29em;
+    opacity: 75%;
+    position: absolute;
+    right: 6vw;
+    bottom: 35vh;
+}*/
+
+/*.hero-products2 .hero-img {
+    width: 40%;
+    opacity: 75%;
+    position: absolute;
+    right: 8%;
+    top: 9vh;
+}*/
+
+.hero-products2 .hero-img {
+  width: 28em;
+  opacity: 85%;
+  position: absolute;
+  right: 6vw;
+  bottom: 35vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* navbar dropdown /////////////////////////////////////////////////////// */
 .dropdown {
   position: relative;
@@ -288,6 +547,11 @@ nav img:hover {
   font-family: 'Unica One', cursive;
   font-size: 1.1em;
   letter-spacing: 3px;
+}
+
+/* about2///////texto en barf */
+.about2 {
+  margin: 5em 10em 3em 10em;
 }
 
 
@@ -483,6 +747,10 @@ sacar si queda el carrito, apagado se modifica el id=btn-carrito, ver */
 .tarjeta-body li {
   font-size: .9em;
   list-style-type: circle;
+}
+
+.lista-descripcion2 li {
+  list-style: none !important;
 }
 
 strong {
@@ -885,6 +1153,34 @@ ______________________________________________________________________ */
     /* se rompio todo con los textos largos */
   }
 
+
+
+
+
+
+
+
+
+  /* portada snacks////////////////////////se rompe todoooooooooooooooooooooooooooooooo, no puedo ahora, dlolar 3 mil lunes///////////////////////// */
+  .hero-products .hero-img {
+    width: 30em;
+    object-fit: contain;
+    opacity: 85%;
+    position: absolute;
+    right: -7vw;
+    bottom: 38vh;
+}
+
+
+
+
+
+
+
+
+
+
+
   /* tarjetas flexbox /////////////////////////////////////////////// */
   .tarjeta {
     width: 45%;
@@ -984,6 +1280,130 @@ ______________________________________________________________________ */
   .about {
     margin: 4em 2.6em 3em 2.6em;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* portada snacks/////////////////////////////////////////////////////// */
+    .hero-products .hero-portada {
+      /* align-self: center; */
+      padding: 0 1.25em 0 0;
+    }
+  
+    .hero-portada .portada-titulo {
+      /* font-size: 20vw;  se rompe todo en mobile con los nuevos texto largos */
+      font-size: 13vw;
+      font-weight: bold;
+      margin-top: -.5em;
+    }
+  
+  
+    .hero-portada .portada-subtitulo {
+      font-size: 1.4rem;
+    }
+  
+    .hero-products {
+      position: relative;
+      /* width: 100%; */
+      /* height: 91vh; */
+      grid-template-columns: minmax(80vw, 4fr) 3fr;
+      grid-auto-rows: 90vh;
+    }
+  
+    /* .hero-products .hero-img {
+      width: 1900%;
+      position: relative;
+      right: 1000%;
+      top: 6%;
+      opacity: 30%;
+    } */
+    .hero-products .hero-img {
+      /* width: 1900%; */
+      position: absolute;
+      right: -50%;
+      top: 15%;
+      opacity: 30%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* portada barf///////////////////////////////////////////////////// */
+
+  /* portada barf/////////////SE ROMPIO TODOOOOOOOOOOOO////////////////////////////////////////// */
+  .hero-products2 {
+    /* position: relative; */
+    display: grid;
+    width: 100%;
+    height: 45vh;
+    /* grid-template-columns: minmax(55vw, 4fr) 3fr; */
+    /* grid-auto-rows: 88vh; */
+    padding: 1.5em;
+    overflow: hidden;
+    background-color: var(--color-background-nav);
+    background: linear-gradient(90deg, #cdcdcd00 20%, #00000038);
+    /* Z-INDEX: 9999; */
+}
+
+  .hero-products2 .hero-portada {
+    /* align-self: center; */
+    padding-left: 5em;
+    z-index: 9;
+    filter: drop-shadow(1px 1px 10px #0000006a);
+    margin-top: 5em;
+  }
+
+  /* .hero-products2 .hero-img {
+    width: 25em;
+    opacity: 30%;
+    position: absolute;
+    right: -19vw;
+    bottom: 36vh;
+} */
+.hero-products2 .hero-img {
+  width: 25em;
+  opacity: 30%;
+  position: absolute;
+  right: -15vw;
+  bottom: 36vh;
+}
+
+  .about2 {
+    margin: 3em;
+  }
+
+  .volverArriba2 {
+    font-size: 2em;
+    position: fixed;
+    right: 20%;
+    /* top: 80%; */
+    bottom: 20%;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 0%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    padding: 0.2em 0.3em 0.2em 0.3em;
+    border-radius: .4em;
+}
+
 
 
   /* tarjetas flexbox ////////////////////////////////////////////////// */
@@ -1135,4 +1555,3 @@ body::-webkit-scrollbar-thumb {
   scrollbar-width: thin;
   scrollbar-color: var(--color-00) var(--color-background-tarjetas-gris);
 }
-

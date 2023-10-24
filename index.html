@@ -22,15 +22,13 @@
 
 <body>
     <!-- navbar--------------------------------------------------------------- -->
-    <nav class="nav">
+    <!-- <nav class="nav">
         <input type="checkbox" id="nav-check">
         <div class="nav-header">
             <div class="nav-title">
                 <a href="index.html"><img src="./assets/img/logo-sinFondoNEGR.png" alt="logo"></a>
             </div>
         </div>
-
-        <!-- menu hamburguesa -->
         <div class="nav-btn">
             <label for="nav-check">
             </label>
@@ -39,8 +37,39 @@
         <ul class="nav-list">
             <li><a href="index.html">Home</a></li>
             <li><a href="perros.html">Suplementos y Snacks</a></li>
-            <li><a href="gatos.html">Productos B.A.R.F</a></li>
-            <li><a href="info_barf.html">Información sobre B.A.R.F</a></li>
+            <li><a href="gatos.html">B.A.R.F</a></li>
+            <li><a href="nuestrosClientes.html">Nuestros Clientes</a></li>
+            <li><a href="contacto.html">Contactanos</a></li>
+        </ul>
+    </nav> -->
+    <!-- navbar--------------------------------------------------------------- -->
+    <nav class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <div class="nav-title">
+                <a href="index.html"><img src="./assets/img/logo-sinFondoNEGR.png" alt="logo"></a>
+            </div>
+        </div>
+        <!-- menu hamburguesa -->
+        <div class="nav-btn">
+            <label for="nav-check">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <!-- <a class="drop_a" href="#">Nuestros Productos&#129171;</a>   -->
+                <a class="drop_a" href="#">Nuestros Productos<span><svg xmlns="http://www.w3.org/2000/svg" width="10"
+                            height="10" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 6 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg></span></a>
+                <div class="dropdown-content">
+                    <a href="1snacks.html">Suplementos y Snacks</a>
+                    <a href="2barf.html">B.A.R.F.</a>
+                </div>
+            </li>
             <li><a href="nuestrosClientes.html">Nuestros Clientes</a></li>
             <li><a href="contacto.html">Contactanos</a></li>
         </ul>
@@ -79,27 +108,22 @@
                 </div>
             </div>
 
-            <img class="hero-img" src="./assets/img/portada/cachorro-y-gatito_1920x1080.png" alt="portada">
+            <img class="hero-img" src="./assets/img/portada/cachorro-y-gatito_enfocado.png" alt="portada">
 
         </section>
-<!-- testeo de API de clima -->
-<!-- <section>
-    <h2>Clima</h2>
-    Temperatura: <span id="temperature_2m"></span> <br>
-    Hora: <span id="time"></span> <br>
 
-</section> -->
-
-<!-- fin teste API de clima -->
         <section class="about">
             <h2 class="titulo2">Sobre Nosotras</h2>
-            
-            <p>Somos Pili y Vicky amigas y futuras colegas Veterinarias. Somos unas enamoradas de nuestras mascotas y las de nuestros amigos.<br><br>
-                Cocinamos esta idea a partir del deseo de que nuestros peludos se alimenten de forma natural y fresca, con buena nutrición, sin conservantes, químicos ni colorantes y con todo el amor que siempre nos sale del corazón.<br><br>
-                Ofrecemos suplementos naturales para complementar la alimentación de perros y gatos que consumen tanto alimento balanceado como BARF (Biologically Appropriate Raw Food).<br><br>
-                Nuestras recetas están hechas con ingredientes frescos y locales, con mucho amor y siempre pensando en el bienestar de nuestros amiguitos.
-            </p>
-
+            <h3>Somos Pili y Vicky amigas y futuras colegas Veterinarias. Somos unas enamoradas de nuestras mascotas y
+                las de nuestros amigos.
+                Cocinamos esta idea a partir del deseo de que nuestros peludos se alimenten de forma natural y fresca,
+                con buena nutrición, sin conservantes, químicos ni colorantes y con todo el amor que siempre nos sale
+                darles.
+                Ofrecemos suplementos naturales para complementar la alimentación de perros y gatos que consumen tanto
+                alimento balanceado como BARF (Biologically Appropriate Raw Food).
+                Nuestras recetas están hechas con ingredientes frescos y locales, con mucho amor y siempre pensando en
+                el bienestar de nuestros amiguitos.
+            </h3>
         </section>
 
         <section class="menu">
@@ -120,8 +144,12 @@
                 <picture class="menu-grilla-item">
                     <img src="./assets/img/menus sin fondo/Liver-Dog-Treats-Recipe-Photo--arr.png" alt="">
                 </picture>
-                <picture class="menu-grilla-item">
+                <!-- <picture class="menu-grilla-item">
                     <img src="./assets/img/menus sin fondo/Peanut-Butter-Pumpkin-Soft-Dog-Treats-Recipe-Photo.png"
+                        alt="">
+                </picture> -->
+                <picture class="menu-grilla-item">
+                    <img src="./assets/img/productos/galeria3.png"
                         alt="">
                 </picture>
                 <picture class="menu-grilla-item">
@@ -152,6 +180,11 @@
                 <picture class="menu-grilla-item">
                     <img src="./assets/img/menus sin fondo/Banana-Dog-Treats-Pin-Photo-800x1200.png" alt="">
                 </picture>
+                <picture class="menu-grilla-item">
+                    <!-- <img src="./assets/img/menus sin fondo/Liver-Dog-Treats-Recipe-Photo--arr.png" alt=""> -->
+                    <img src="./assets/img/productos/galeria1.png"
+                    alt="">
+                </picture>
 
                 <!-- CON LINK/ AMPLIAR -->
                 <!-- <picture class="menu-grilla-item">
@@ -175,7 +208,7 @@
         <div class="">
             <div class="">
                 <ul class="social">
-                    <li><a href="https://www.instagram.com/bonappetittandil/" target="_blank" rel="noopener noreferrer"><span
+                    <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><span
                                 class="fa-brands fa-instagram"></span></a></li>
                     <li><a href="https://tiktok.com" target="_blank" rel="noopener noreferrer"><span
                                 class="fa-brands fa-tiktok"></span></a></li>

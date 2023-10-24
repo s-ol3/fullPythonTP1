@@ -29,23 +29,52 @@
                 <a href="index.html"><img src="./assets/img/logo-sinFondoNEGR.png" alt="logo"></a>
             </div>
         </div>
-
-        <!-- menu hamburguesa png en phone-->
+        <!-- menu hamburguesa -->
         <div class="nav-btn">
             <label for="nav-check">
+                <i class="fa-solid fa-bars"></i>
             </label>
         </div>
-
         <ul class="nav-list">
             <li><a href="index.html">Home</a></li>
-            <li><a href="perros.html">Suplementos y Snacks</a></li>
-            <li><a href="gatos.html">Productos B.A.R.F.</a></li>
-            <li><a href="info_barf.html">Información sobre B.A.R.F</a></li>
+            <li class="dropdown">
+                <a class="drop_a" href="#">Nuestros Productos<span><svg xmlns="http://www.w3.org/2000/svg" width="10"
+                            height="10" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 6 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg></span></a>
+                <div class="dropdown-content">
+                    <a href="1snacks.html">Suplementos y Snacks</a>
+                    <a href="2barf.html">B.A.R.F.</a>
+                </div>
+            </li>
             <li><a href="nuestrosClientes.html">Nuestros Clientes</a></li>
             <li><a href="contacto.html">Contactanos</a></li>
         </ul>
     </nav>
 
+
+    <section class="hero-products">
+        <div class="hero-portada">
+            <h1 class="portada-titulo">Suplementos y Snacks</h1>
+            <p class="portada-subtitulo">Lorem ipsum dolor sit amet consectetur </p>
+        </div>
+
+        <img class="hero-img" src="assets/img/portada/dog8-sinBorde.png" alt="portada">
+    </section>
+
+    <section class="about2">
+        <!-- no usar tantos br, se hace con css el espaciado -->
+        <h2 class="titulo2">Eos incidunt eum quisquam!</h2> <br>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque laboriosam atque ipsam rerum placeat,
+            voluptatibus illum facere tempore maiores nam alias totam, corporis doloribus dolorem hic tempora, explicabo
+            sapiente delectus.
+        </h3><br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos incidunt eum quisquam! Exercitationem,
+            voluptates rerum. Sunt aperiam impedit similique sint obcaecati. Exercitationem at consectetur beatae
+            dolorum in, autem nesciunt. Quas?
+        </p>
+    </section>
 
     <!-- tarjetas flexbox ------------------------------------------------------->
     <section class="container-tarjetas">
@@ -73,12 +102,14 @@
                         <li> Proteína de calidad necesaria para la nutrición de nuestros carnívoros,</li>
                         <li> Vitaminas y minerales como el hierro cobre etc,</li>
                         <li> Los mantiene hidratados</li>
-                        <li> Son una fuente de fibra gracias a los vegetales, favoreciendo el tránsito intestinal</li>
+                        <li> Son una fuente de fibra gracias a los vegetales, favoreciendo el tránsito
+                            intestinal</li>
                         <li> Tienen acción prebiótica</li>
                     </ul>
                     </p>
                     <p>
-                        Recomendamos brindarlos como snacks entre comidas, para premiar buenas conductas en periodos de
+                        Recomendamos brindarlos como snacks entre comidas, para premiar buenas conductas en
+                        periodos de
                         aprendizaje o dárselos en un juguete para que gestionen mejor su ansiedad!
                     </p>
                     <button id="btn-carrito">
@@ -95,7 +126,8 @@
                 <div class="tarjeta-body">
                     <h4>Caldo de huesos</h4>
                     <h3>
-                        Es un concentrado nutricional, rico en minerales, colágeno y otros micronutrientes, disponibles
+                        Es un concentrado nutricional, rico en minerales, colágeno y otros micronutrientes,
+                        disponibles
                         en una forma de muy fácil asimilación.
                     </h3>
                     <p>
@@ -109,7 +141,8 @@
                     </p>
 
                     <p>
-                        Recomendamos probar las variantes de Caldo + Arándanos, Caldo+ Cornalitos o Caldo+ Golden Paste!
+                        Recomendamos probar las variantes de Caldo + Arándanos, Caldo+ Cornalitos o Caldo+
+                        Golden Paste!
                     </p>
                     <!-- <a href="#" class="btn-tarjeta">Ver más >> </a> -->
                     <button id="btn-carrito">
@@ -126,15 +159,18 @@
                 <div class="tarjeta-body">
                     <!-- nombre plato -->
                     <h4>Snacks</h4>
-                    <h3>Un snack natural ideal para paseos o juegos en casa! O simplemente como una golosina super rica
+                    <h3>Un snack natural ideal para paseos o juegos en casa! O simplemente como una golosina
+                        super rica
                         y sobre todo saludable!</strong>
                     </h3>
                     <p>
-                        Elaborados a base de pechuga de pollo, procesados con huevos y un poco de harina de garbanzos,
+                        Elaborados a base de pechuga de pollo, procesados con huevos y un poco de harina de
+                        garbanzos,
                         para dar mejor textura y crocantez.
                     </p>
                     <p>
-                        Recomendamos brindarlos como snacks entre comidas, para premiar buenas conductas en periodos de
+                        Recomendamos brindarlos como snacks entre comidas, para premiar buenas conductas en
+                        periodos de
                         aprendizaje o simplemente una golosina para mimar!
                     </p>
 
@@ -196,7 +232,8 @@
                 <div class="tarjeta-body">
                     <h4>Paté de hígado</h4>
                     <h3>
-                        Es un alimento húmedo en base a hígado y vegetales. Pensando como suplemento vitamínico para
+                        Es un alimento húmedo en base a hígado y vegetales. Pensando como suplemento vitamínico
+                        para
                         aportar a la alimentación ultra procesada.
                     </h3>
                     <p>
@@ -213,8 +250,10 @@
                         <!-- Las vitaminas son esenciales para el metabolismo, crecimiento, desarrollo, mantenimiento y
                         reproducción normales de todos los seres vivos.  -->
                         Es muy importante saber que las vitaminas
-                        sintéticas solo son partes aisladas del complejo vitamínico total! Por eso, brindarles un
-                        alimento con complejos vitamínicos reales, de fuentes de vitaminas naturales sin químicos ni
+                        sintéticas solo son partes aisladas del complejo vitamínico total! Por eso, brindarles
+                        un
+                        alimento con complejos vitamínicos reales, de fuentes de vitaminas naturales sin
+                        químicos ni
                         aditivos, es esencial en la alimentación de nuestros carnívoros a cargo!",
                     </p>
                     <!-- <a href="#" class="btn-tarjeta">Ver más >> </a> -->
@@ -232,7 +271,8 @@
                 <div class="tarjeta-body">
                     <h4>Orejitas de cerdo deshidratadas</h4>
                     <h3>
-                        Naturales, sin conservantes, ni colorantes, sin blanqueadores. Apto para perros que se alimenten
+                        Naturales, sin conservantes, ni colorantes, sin blanqueadores. Apto para perros que se
+                        alimenten
                         con BARF o balanceado.
                     </h3>
                     <p>
@@ -257,7 +297,8 @@
                         Es un antidiarreico natural hecho a base de zanahorias.
                     </h3>
                     <p>
-                        Recomendamos dar cualquier carne magra junto con la sopa de moro, para mantener al animal
+                        Recomendamos dar cualquier carne magra junto con la sopa de moro, para mantener al
+                        animal
                         hidratado sumado a kéfir para fortalecer el sistema inmune y la microbiota.
                     </p>
                     <!-- <a href="#" class="btn-tarjeta">Ver más >> </a> -->
@@ -275,7 +316,8 @@
                 <div class="tarjeta-body">
                     <h4>Kéfir de agua</h4>
                     <h3>
-                        Es una bebida fermentada que aporta bacterias (Lactobacillus, Bifidobacterium, Streptococcus) y
+                        Es una bebida fermentada que aporta bacterias (Lactobacillus, Bifidobacterium,
+                        Streptococcus) y
                         levaduras benéficas para la microbiota
                     </h3>
                     <p>
@@ -303,7 +345,8 @@
                 <div class="tarjeta-body">
                     <h4>Golden Paste</h4>
                     <h3>
-                        Es una pasta hecha a base de cúrcuma cuyo principio activo la curcumina tiene importantes
+                        Es una pasta hecha a base de cúrcuma cuyo principio activo la curcumina tiene
+                        importantes
                         propiedades, principalmente antiinflamatorio.
                     </h3>
                     <p>

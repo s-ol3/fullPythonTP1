@@ -240,83 +240,6 @@ nav img:hover {
 }
 
 
-/* heroe productos///////solo pantalla grande, tablet y mobile esta roto///////////////////////////////////////////////////// */
-/*.hero-products {
-  position: relative;
-  display: grid;
-  width: 100%;
-  height: 92vh;
-  grid-template-columns: minmax(55vw, 4fr) 3fr;
-  grid-auto-rows: 88vh;
-  padding: 1.25em 3.5em;
-  overflow: hidden;
-  background-color: var(--color-background-nav);
-  /* background: linear-gradient(90deg, #cdcdcded 20%, #0000000a); 
-  /* background: linear-gradient(90deg, #cdcdcd8c 20%, #00000000); 
-  background: linear-gradient(90deg, #cdcdcd00 20%, #00000038);
-}
-
-.hero-products .hero-img {
-  width: 150%;
-  object-fit: contain;
-  opacity: 55%;
-  position: relative;
-  right: 30%;
-  bottom: -3%;
-}
-
-.hero-products .hero-portada {
-  align-self: center;
-  padding-left: 3.3em;
-  z-index: 9;
-  filter: drop-shadow(1px 1px 10px #0000006a);
-}
-.hero-products .portada-subtitulo {
-  color: #7b7b7b;
-  font-weight: 600;
-}*/
-
-/* heroe productos////////////solo pantalla grande, tablet y mobile esta roto//////////////////////////////////////////////// */
-/*.hero-products2 {
-  position: relative;
-  display: grid;
-  width: 100%;
-  height: 92vh;
-  grid-template-columns: minmax(55vw, 4fr) 3fr;
-  grid-auto-rows: 88vh;
-  padding: 1.25em 3.5em;
-  overflow: hidden;
-  background-color: var(--color-background-nav);
-  /* background: linear-gradient(90deg, #cdcdcded 20%, #0000000a); 
-  /* background: linear-gradient(90deg, #cdcdcd8c 20%, #00000000); 
-  background: linear-gradient(90deg, #cdcdcd00 20%, #00000038);
-}
-
-.hero-products2 .hero-img {
-  width: 150%;
-  object-fit: contain;
-  opacity: 65%;
-  position: relative;
-  right: 45%;
-  bottom: 2%;
-}
-
-.hero-products2 .hero-portada {
-  align-self: center;
-  padding-left: 3.3em;
-  z-index: 9;
-  filter: drop-shadow(1px 1px 10px #0000006a);
-}
-.hero-products2 .portada-subtitulo {
-  color: #7b7b7b;
-  font-weight: 600;
-}*/
-
-
-
-
-
-
 
 
 
@@ -1161,7 +1084,7 @@ ______________________________________________________________________ */
 
 
 
-  /* portada snacks////////////////////////se rompe todoooooooooooooooooooooooooooooooo, no puedo ahora, dlolar 3 mil lunes///////////////////////// */
+  /* portada snacks//////////////////////////////////////////////// */
   .hero-products .hero-img {
     width: 30em;
     object-fit: contain;
@@ -1351,7 +1274,7 @@ ______________________________________________________________________ */
 
   /* portada barf///////////////////////////////////////////////////// */
 
-  /* portada barf/////////////SE ROMPIO TODOOOOOOOOOOOO////////////////////////////////////////// */
+  /* portada barf//////////////////////////////////////////////////// */
   .hero-products2 {
     /* position: relative; */
     display: grid;
@@ -1556,11 +1479,57 @@ body::-webkit-scrollbar-thumb {
   scrollbar-color: var(--color-00) var(--color-background-tarjetas-gris);
 }
 
+
+
+
+
+
+
+
+
+
+
 /* para intento de api */
-.api-cat-fact{
+/* .api-cat-fact{
   background-color: whitesmoke;
   padding: .9em;
   border-radius: 3em;
   transition: 1s;
 
+} */
+
+
+
+
+/* .api-cat-fact {
+  background-color: #b5b5b5;
+  margin: 6em;
+  padding: 7.9em;
+  border-radius: 3em;
+  transition: 1s;
+} */
+
+.api-cat-fact  {
+  /* width: 70%; */
+  background-color: var(--color-background-tarjetas-blanco);
+  border: 1px solid var(--color-background-tarjetas-gris);
+  margin: 6em 10em;
+  padding: 7.9em;
+  border-radius: 3em;
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+/* .api-cat-fact:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+} */
+
+
+.api-img {
+  border-radius: 133em;
+  width: 12em;
+  height: 12em;
+  margin: 2em;
+  float: right;
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.6);
 }

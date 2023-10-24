@@ -1555,3 +1555,12 @@ body::-webkit-scrollbar-thumb {
   scrollbar-width: thin;
   scrollbar-color: var(--color-00) var(--color-background-tarjetas-gris);
 }
+
+/* para intento de api */
+.api-cat-fact{
+  background-color: whitesmoke;
+  padding: .9em;
+  border-radius: 3em;
+  transition: 1s;
+
+}

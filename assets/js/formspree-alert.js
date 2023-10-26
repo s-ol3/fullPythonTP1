@@ -1,4 +1,4 @@
-// para que al enviar form se quede dentro de la pagina y no vaya a formspree + alert
+// para que al enviar el form no vaya a la pagina de formspree + alert 
 // https://www.youtube.com/watch?v=qtH8PLuy1Ck -->
 
 const $form = document.querySelector('#form')
@@ -26,7 +26,7 @@ async function handleSubmit(event) {
 
 
 
-//Mica, no funcionan validaciones/////////////////////////////////////////////////////////////
+//Mica. no funcionan validaciones, quedan las de html/////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 //Acceso al formulario
